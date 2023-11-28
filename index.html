@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- Bytt "zxx" med "no" for å unngå valideringsadvarsel -->
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta-informasjon om siden -->
+        <meta name="description" content="Velkommen til vår hovedside. Utforsk våre tjenester, portefølje, og lær mer om vår bedrift.">
+        <meta name="keywords" content="tjenester, portefølje, bedrift, branding, design">
+        <meta property="og:title" content="Hovedside - Vår Bedrift">
+        <meta property="og:description" content="Oppdag hva Vår Bedrift kan tilby - fra kreative tjenester til innovative løsninger.">
+        <meta property="og:image" content="https://eksempel.com/ressurser/hovedbilde.jpg">
+        <meta property="og:url" content="https://eksempel.com/main">
+
+        <!-- Lenke til CSS-stilarket -->
+        <link rel="stylesheet" href="Css/style.css">
+        <title>main</title>
+        <!-- Lenke til Font Awesome-ikonsettet -->
+        <script src="https://kit.fontawesome.com/7b467d2fce.js" crossorigin="anonymous"></script>
+        <!-- Favicon for siden fra https://www.veryicon.com/icons/flag/rounded-world-flags/norway-flag-2.html -->
+        <link rel="icon" type="image/x-icon" href="ressurser/Norway-Flag.png">
+    </head>
+    <body>
+        
+        <div class="hidden" itemscope itemtype="http://schema.org/Organization">
+            <a itemprop="url" href="https://eksempel.com/main">
+                <img itemprop="logo" src="ressurser/logo1.png" alt="Company Logo">
+            </a>
+            <p itemprop="name">Vår Bedrift</p>
+            <p itemprop="description">Your company description goes here.</p>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <p itemprop="streetAddress">123 Main Street</p>
+                <p itemprop="addressLocality">City</p>
+                <p itemprop="addressRegion">State</p>
+                <p itemprop="postalCode">12345</p>
+            </div>
+            <a itemprop="email" href="mailto:info@example.com">info@example.com</a>
+            <a itemprop="telephone" href="tel:+1234567890">+1 (234) 567-890</a>
+        </div>
+
+        <div itemscope itemtype="http://schema.org/WebPage">
+            <meta itemprop="name" content="Hovedside - Vår Bedrift">
+            <meta itemprop="description" content="Oppdag hva Vår Bedrift kan tilby - fra kreative tjenester til innovative løsninger.">
+            <link itemprop="url" href="https://eksempel.com/main">
+            <link itemprop="image" href="https://eksempel.com/ressurser/hovedbilde.jpg">
+        </div>
+
+        <header>
+            <!-- Navigasjonsmeny og logo -->
+            <a href="#top" aria-label="Gå til toppen av siden">
+                <i class="fa-solid fa-arrow-up go-to-top"></i>
+            </a>
+            <nav id="top">
+                <!-- bilde fra https://pixabay.com/photos/open-book-library-education-read-1428428/ -->
+                <a href=""><img src="ressurser/logo1.png" alt="header-logo"></a>
+                <ul>
+                    <li><a href="#" class="nav-link-home">Home</a></li>
+                    <li><a href="products.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="contact-link" href="about.html#contact-h2">Contact</a></li>
+                </ul>
+                
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div class="video-container">
+                <!-- Bakgrunnsvideo -->
+                <video autoplay loop muted aria-label="Bakgrunnsvideo">
+                    <source src="ressurser/mountains.mp4" type="video/mp4">
+                </video>
+
+                <img src="ressurser/Index-bilde.jpeg" alt="Bilde for mobilversjon" class="mobile-image">
+
+                <div class="text-overlay">
+                    <h2 class="overlay overlay-heading">Compelling headline</h2>
+                    <p class="overlay overlay-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nisi aliquam. Neque atque ad soluta reiciendis fugiat deserunt, quod obcaecati maxime, iusto cum numquam laudantium. Deserunt dolore aspernatur quidem voluptatem.</p>
+                    <a class="ovlerlay overlay-link" href="#our-services">Read more about our services</a>
+                </div>
+            </div>
+
+
+            <article itemscope itemtype="http://schema.org/Article" class="article-1">
+                <!-- Overskrift og tekst for artikkel 1 -->
+                <h2 itemprop="headline" id="h2-engaging">Engaging subheading. What can you help your visitors with</h2>
+
+                <p itemprop="articleBody" id="lorem-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos quod architecto exercitationem accusantium deleniti porro soluta iusto, nostrum minima veniam quidem libero? Eligendi minima, aliquid omnis autem id facere ab non consectetur iure sunt illum dolores eaque inventore ipsam voluptatem est dolor beatae dolore accusamus repellendus molestiae tempora aperiam.</p>
+            </article>
+            <br><br><br><br>
+            <section class="section-1">
+                
+                <img class="section-1-img" src="ressurser/400x400.svg" alt="placeholder-img">
+                <article class="about-our">
+                    <h2>About Our Company</h2>
+                    <p id="section-1-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestias aspernatur sapiente velit quo assumenda ratione harum molestiae beatae modi earum tempora vel quidem nisi eveniet atque accusantium, cupiditate ab?</p>
+                    <a class="section-1-link" href="about.html">Read more about us</a>
+                </article>
+                <h1>none</h1>
+            </section>
+
+
+            <h2 id="our-services">Our Services</h2>
+
+            <section class="section-2">
+                <h1>none</h1>
+                <article class="fa-artical">
+                    <i class="fa-solid fa-people-group"></i>
+                    <h3 class="branding-fa">Branding</h3>
+                    <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+            
+                <article class="fa-artical">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <h3 class="branding-fa">Branding</h3>
+                    <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+            
+                <article class="fa-artical">
+                    <i class="fa-solid fa-code"></i>
+                    <h3 class="branding-fa">Branding</h3>
+                    <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+            
+                <article class="fa-artical">
+                    <i class="fa-solid fa-wifi"></i>
+                    <h3 class="branding-fa">Branding</h3>
+                    <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+            </section>
+
+            <section class="section-3">
+            <h2 id="sign-up">Sign up our newsletter</h2>
+
+                <article class="newsletter">
+                    <h2>none</h2>
+                    <input type="email" placeholder="Nora@epost.no" aria-label="Email for newsletter">
+                    <a href="#" class="signup-link">Sign Up</a>
+                </article>
+                <br><br><br>
+            </section>
+        
+        </main>
+
+        <footer class="footer">
+            <img src="/ressurser/logo1.png" alt="placeholder-icon">
+            <p>Companyrights Companyname 2023</p>
+            <article class="footer-icons">
+                <h2>none</h2>
+                <a href="https://www.facebook.com/" aria-label="Visit our Facebook page">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" aria-label="Visit our Instagram page">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/" aria-label="Visit our LinkedIn page">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </article>
+        </footer>
+
+    </body>
+</html>

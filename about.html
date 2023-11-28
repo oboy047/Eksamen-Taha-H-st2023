@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--zxx isteden for en, foe å ikke få en warning når koden valideres-->
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Meta-informasjon om siden -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about our company, our values, mission, and the team behind our services.">
+    <meta name="keywords" content="about us, company history, our team, company values, mission statement">
+    <meta property="og:title" content="About Us - Our Company">
+    <meta property="og:description" content="Discover the story behind Our Company, our values, and our dedicated team.">
+    <meta property="og:image" content="https://example.com/resources/about-image.jpg">
+    <meta property="og:url" content="https://example.com/about">
+        <!-- Lenke til CSS-stilarket -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- Skript for Font Awesome-ikonsettet -->
+    <script src="https://kit.fontawesome.com/7b467d2fce.js" crossorigin="anonymous"></script>
+    <title>about</title>
+    <!-- Favicon for siden -->
+    <link rel="icon" type="image/x-icon" href="ressurser/Norway-Flag.png">
+</head>
+<body>
+    
+        <header>
+
+            <a href="#top" aria-label="Go to top of page">
+                <i class="fa-solid fa-arrow-up go-to-top"></i>
+            </a>
+
+           <nav id="top">
+
+               <a href="index.html"><img src="ressurser/logo1.png" alt="header-logo"></a>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Portfolio</a></li>
+                   <li><a href="#" class="nav-link-about">About</a></li>
+                   <li><a href="#contact-h2" class="contact-link">Contact</a></li>
+               </ul>   
+           </nav>
+        </header>
+
+<main>
+
+    <section>
+        <h2 class="hidden">none</h2>
+        <div class="image-container">
+            <!-- bilde funnet: https://pixabay.com/photos/pen-notebook-notepad-diary-4337524/ -->
+            <img src="ressurser/pixa-bay-img.jpeg" alt="notebook-about">
+            <article class="about-banner">
+                <div class="text-background">
+                    <p>Company name</p>
+                    <h2>About Our Company</h2>
+                    <p id="p-about-banner">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi officia eaque ipsum praesentium cupiditate vero eveniet ut sint adipisci a itaque ab sunt molestias perferendis quibusdam consequuntur, aperiam minima dolore id fuga debitis placeat! Sint, quas facilis facere aliquam fugiat quod, libero minima provident, distinctio vitae nam accusamus commodi nostrum sapiente atque quibusdam saepe debitis? Debitis quae consequuntur explicabo! Dolores?</p>
+                    <a class="get-in-touch get" href="#contact-h2">Get in touch with us</a>
+                    <br>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <br><br><br>
+    <h2 id="our-services">Our Services</h2>
+
+    <section id="contact-link" class="section-2">
+        <h1>none</h1>
+        <article class="fa-artical">
+            <h2 class="hidden">none</h2>
+            <i class="fa-solid fa-people-group"></i>
+            <p class="branding-text-space">Branding</p>
+            <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+    
+        <article class="fa-artical">
+            <h2 class="hidden">none</h2>
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p class="branding-text-space">Branding</p>
+            <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+    
+        <article class="fa-artical">
+            <h2 class="hidden">none</h2>
+            <i class="fa-solid fa-code"></i>
+            <p class="branding-text-space">Branding</p>
+            <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+    
+        <article class="fa-artical">
+            <h2 class="hidden">none</h2>
+            <i class="fa-solid fa-wifi"></i>
+            <p class="branding-text-space">Branding</p>
+            <p class="text-space">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+    </section>
+
+    <section class="about-section-2">
+        <h2>Some of our clients</h2>
+        <ul>
+            <li><img src="/ressurser/logo1.png" alt="client-1"></li>
+            <li><img src="/ressurser/logo2.png" alt="client-2"></li>
+            <li><img src="/ressurser/logo3.png" alt="client-3"></li>
+        </ul>
+    </section>
+  
+
+    <section class="contact-section">
+            <h2 class="hidden">Contact Us</h2>
+            <article class="message">
+                <h3>Send us a message</h3>
+                
+                <!-- Name Form -->
+                <form action="#" method="post" class="form-text">
+                    <label for="name">Name</label>
+                    <input id="name" class="input-box" type="text" placeholder="Ola Nordmann" aria-label="Name">
+                </form>
+            
+                <!-- Subject Form -->
+                <form action="#" method="post" class="form-text">
+                    <label for="subject">Subject</label>
+                    <input id="subject" class="input-box" type="text" placeholder="Branding" aria-label="Subject">
+                </form>
+            
+                <!-- Message Form -->
+                <form action="#" method="post" class="form-text">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="input-message-box" aria-label="Message"></textarea>
+                </form>
+            
+                <!-- Send Message Button (separate or can be included in one of the above forms) -->
+                <form action="#" method="post">
+                    <a class="send-message-link" href="about.html">Send message</a>
+                </form>
+            </article>
+            
+    
+            
+            <article class="contact-info">
+
+                <div class="hidden" itemscope itemtype="http://schema.org/Organization">
+                    <h2 itemprop="name">Company Name</h2>
+                    <p itemprop="description">Description of the company</p>
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">Street Address</span>,
+                        <span itemprop="addressLocality">City</span>,
+                        <span itemprop="addressRegion">State</span>,
+                        <span itemprop="postalCode">Postal Code</span>
+                    </div>
+                    <span itemprop="telephone">Contact Number</span>
+                </div>
+                
+
+                <h3>Contact information</h3>
+            
+                <p id="contact-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem corrupti odit, minima, a nisi architecto quas distinctio delectus dolores soluta quis facilis illo tenetur sit explicabo. Similique nulla alias officiis necessitatibus? Rerum, neque facere.</p>
+            
+                <article class="div-icons">
+                    <h2 class="hidden">none</h2>
+                <div class="icon-text">
+                    <i class="fa-solid fa-location-pin icon-pack"></i>
+                    <p>B R A Veien 4, 1757 Halden</p>
+                </div>
+            
+                <div class="icon-text">
+                    <i class="fa-solid fa-phone icon-pack"></i>
+                    <p>69 60 80 00</p>
+                </div>
+            
+                <div class="icon-text">
+                    <i class="fa-solid fa-envelope icon-pack"></i>
+                    <p>postmottak@hiof.no</p>
+                </div> 
+                </article>
+
+                
+            </article>
+    
+    </section>
+
+    <br><br><br>
+
+    <section class="maps">
+        <!-- If the H2 tag is not needed, you can remove it -->
+        <h2 class="hidden">none</h2>
+        <iframe  title="Location on Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1153956819346!2d11.35194757789365!3d59.130469574518585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2s%C3%98stfold%20University%20College!5e0!3m2!1sen!2sno!4v1700342293403!5m2!1sen!2sno" 
+
+            style="border:0;" 
+            allow="fullscreen" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <img src="/ressurser/logo1.png" alt="placeholder-icon">
+    <p>Companyrights Companyname 2023</p>
+    <article class="footer-icons">
+        <h2>none</h2>
+        <a href="https://www.facebook.com/" aria-label="Visit our Facebook page">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/" aria-label="Visit our Instagram page">
+            <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/" aria-label="Visit our LinkedIn page">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </article>
+</footer>
+
+</body>
+</html>

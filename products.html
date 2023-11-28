@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta-informasjon om siden -->
+
+    <!-- vet ikke om jeg skal gjøre endringer på meta og micra taggene, som for eksempel navn, tlf nummer eller adresse. Så jeg gjorde ikke noe endringer på de.-->
+    <meta name="description" content="Welcome to our homepage. Explore our services, portfolio, and learn more about our company.">
+    <meta name="keywords" content="services, portfolio, company, branding, design">
+    <meta property="og:title" content="Main Page - Our Company">
+    <meta property="og:description" content="Discover what Our Company offers - from creative services to innovative solutions.">
+    <meta property="og:image" content="https://example.com/resources/mainimage.jpg">
+    <meta property="og:url" content="https://example.com/main">
+    <!-- Lenke til CSS-stilarket -->
+    <link rel="stylesheet" href="Css/style.css">
+    <title>products</title>
+    <!-- Lenke til Font Awesome-ikonsettet -->
+    <script src="https://kit.fontawesome.com/7b467d2fce.js" crossorigin="anonymous"></script>
+    <!-- Favicon for siden -->
+    <link rel="icon" type="image/x-icon" href="ressurser/Norway-Flag.png">
+</head>
+<body>
+
+    <div class="hidden" itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" href="products.html">
+            <img itemprop="logo" src="ressurser/logo1.png" alt="Company Logo">
+        </a>
+        <p itemprop="name">Our Company</p>
+        <p itemprop="description">Your company description goes here.</p>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <p itemprop="streetAddress">123 Main Street</p>
+            <p itemprop="addressLocality">City</p>
+            <p itemprop="addressRegion">State</p>
+            <p itemprop="postalCode">12345</p>
+        </div>
+        <a itemprop="email" href="mailto:info@example.com">info@example.com</a>
+        <a itemprop="telephone" href="tel:+1234567890">+1 (234) 567-890</a>
+    </div>
+
+    <div itemscope itemtype="http://schema.org/WebPage">
+        <meta itemprop="name" content="Main Page - Our Company">
+        <meta itemprop="description" content="Discover what Our Company offers - from creative services to innovative solutions.">
+        <link itemprop="url" href="products.html">
+        <link itemprop="image" href="ressurser/logo1.png">
+    </div>
+    
+    <header>
+        <!-- Navigasjonsmeny og logo -->
+        <a href="#top" aria-label="Go to top of page">
+            <i class="fa-solid fa-arrow-up go-to-top"></i>
+        </a>
+        <nav id="top">
+           <a href="index.html"><img src="ressurser/logo1.png" alt="header-logo"></a>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#" class="nav-link-product">Portfolio</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="about.html#contact-h2" class="contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+
+    <!-- Hjelp av Chat GPT for hvordan strukturen skal være for vidoen, bilden, overly-en og teksten-->
+    <div class="image-container">
+        <img src="ressurser/notebook.jpeg" alt="Descriptive Alt Text">
+        <div class="overlay-product">
+            <h2>Portfolio</h2>
+        </div>
+    </div>
+
+    <section class="margin-setion-product">
+        <h1 class="hidden">none</h1>
+        <section>
+            <h2>Explore previous jobs</h2>
+            <hr class="hr-line">
+    
+            <article>
+                <h2 class="hidden">none</h2>
+                <ul  class="product-menu">
+                    <li><a href="#branding-nav">Branding</a></li>
+                    <li><a href="#design-nav">Design</a></li>
+                    <li><a href="#development-nav">Development</a></li>
+                </ul>
+            </article>
+        </section>
+    
+        <section id="branding-nav" class="section-branding">
+            <h2>Branding</h2>
+            <hr class="hr-line">
+            <br><br><br>
+    
+            <section class="branding">
+                <h2 class="hidden">none</h2>
+               <article class="branding-img">
+                <img class="branding-img-style" src="ressurser/400x400.svg" alt="branding-image-1">
+                <h2 class="hidden">Heading 1</h2> 
+                <p>Et harum quidem</p>
+            </article>
+            
+            <article class="branding-img">
+                <img class="branding-img-style" src="ressurser/400x400.svg" alt="branding-image-2">
+                <h2 class="hidden">Heading 2</h2> 
+                <p class="branding-img-hover">Et harum quidem</p>
+            </article>
+            
+            <article class="branding-img">
+                <img class="branding-img-style" src="ressurser/400x400.svg" alt="branding-image-3">
+                <h2 class="hidden">Heading 3</h2> 
+                <p>Et harum quidem</p>
+            </article>
+            
+            <article class="branding-img">
+                <img class="branding-img-style" src="ressurser/400x400.svg" alt="branding-image-4">
+                <h2 class="hidden">Heading 4</h2> 
+                <p>Et harum quidem</p>
+            </article> 
+            </section>
+            
+        </section>
+    
+        <section id="design-nav" class="section-design">
+            <h2>Design</h2>
+            <hr class="hr-line">
+    
+            <br><br><br>
+    
+            <section class="design">
+                <h2 class="hidden">none</h2>
+                <article class="design-article">
+                    <img class="branding-img-style" src="ressurser/400x400.svg" alt="design-image-1">
+                    <h2 class="hidden">none</h2>
+                    <p>Et harum quidem</p>
+                </article>
+        
+                <article class="design-article">
+                    <img class="branding-img-style" src="ressurser/400x400.svg" alt="design-image-1">
+                    <h2 class="hidden">none</h2>
+                    <p>Et harum quidem</p>
+                </article>
+        
+                <article class="design-article">
+                    <img class="branding-img-style" src="ressurser/400x400.svg" alt="design-image-1">
+                    <h2 class="hidden">none</h2>
+                    <p>Et harum quidem</p>
+                </article>
+    
+            </section>
+    
+        </section>
+    
+        <section id="development-nav">
+            <h2>Development</h2>
+            <hr class="hr-line">
+    
+            <br><br><br>
+    
+            <section class="development">
+                <h2 class="hidden">none</h2>
+                <article class="development-article">
+                    <img class="branding-img-style" src="ressurser/400x400.svg" alt="development-image-1">
+                    <h2 class="hidden">none</h2>
+                    <p>Et harum quidem</p>
+                </article>
+        
+                <article class="development-article">
+                    <img class="branding-img-style" src="ressurser/400x400.svg" alt="development-image-1">
+                    <h2 class="hidden">none</h2>
+                    <p>Et harum quidem</p>
+                </article>
+            </section>
+        </section>
+    </section>
+</main>
+
+<footer class="footer">
+    <img src="/ressurser/logo1.png" alt="placeholder-icon">
+    <p>Companyrights Companyname 2023</p>
+    <article class="footer-icons">
+        <h2>none</h2>
+        <a href="https://www.facebook.com/" aria-label="Visit our Facebook page">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/" aria-label="Visit our Instagram page">
+            <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/" aria-label="Visit our LinkedIn page">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </article>
+</footer>
+
+</body>
+</html>
